@@ -3,7 +3,7 @@
 # >rix(date = "2026-01-14",
 #  > git_pkgs = list(list(package_name = "rix",
 #  > repo_url = "https://github.com/ropensci/rix/",
-#  > commit = "035e9a29dc8952fbe087ab951692b5bb4e62925f"),
+#  > commit = "672ac0a3dae3958a49a2fccf3348e40ac238284e"),
 #  > list(package_name = "rixpress",
 #  > repo_url = "https://github.com/b-rodrigues/rixpress/",
 #  > commit = "5b49ed87393de8b82e8e2517665aeab6329666db")),
@@ -22,8 +22,8 @@ let
       name = "rix";
       src = pkgs.fetchgit {
         url = "https://github.com/ropensci/rix/";
-        rev = "035e9a29dc8952fbe087ab951692b5bb4e62925f";
-        sha256 = "sha256-Co2Il9hNfyDpRCaoSgov4nPk8w1zsY4elgvHhmfv+Vg=";
+        rev = "672ac0a3dae3958a49a2fccf3348e40ac238284e";
+        sha256 = "sha256-C0J15BTbK4w18Z80K8LH+Kzc2kn0QKmKjlBNYkT9Tno=";
       };
       propagatedBuildInputs = builtins.attrValues {
         inherit (pkgs.rPackages) 
@@ -38,8 +38,8 @@ let
       name = "rixpress";
       src = pkgs.fetchgit {
         url = "https://github.com/b-rodrigues/rixpress/";
-        rev = "b6ac72919207b2908e304240e55911976e0c0360";
-        sha256 = "sha256-rIzORi97JsoCcxT25z9w6pUiP4h9RJZzxOqprzeazeQ=";
+        rev = "5b49ed87393de8b82e8e2517665aeab6329666db";
+        sha256 = "sha256-zQ17hz19F7vlDuBvtHfA/NQA4B2GNOG/6SjBQaR7SXs=";
       };
       propagatedBuildInputs = builtins.attrValues {
         inherit (pkgs.rPackages) 
